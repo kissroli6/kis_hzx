@@ -39,7 +39,7 @@ A package buildeléséhez és futtatásához kövesse az alábbi lépéseket:
 
 5. Launch file futtatása:
     ```bash
-    ros2 launch smart_watch smart_watch_launch.py
+    ros2 launch smart_watch_launch.py
     ```
 
 ## Diagram
