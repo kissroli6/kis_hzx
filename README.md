@@ -22,17 +22,22 @@ A package buildeléséhez és futtatásához kövesse az alábbi lépéseket:
     cd kis_hzx
     ```
 
-2. Workspace buildelése:
+2. ROS 2 környezet beállítása:
+    ```bash
+    source /opt/ros/humble/setup.bash
+    ```
+
+3. Workspace buildelése:
     ```bash
     colcon build
     ```
 
-3. Source a setup script:
+4. Source a setup script:
     ```bash
     . install/setup.bash
     ```
 
-4. Launch file futtatása:
+5. Launch file futtatása:
     ```bash
     ros2 launch smart_watch smart_watch_launch.py
     ```
