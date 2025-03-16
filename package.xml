@@ -3,7 +3,7 @@
   <version>0.0.1</version>
   <description>The smart_watch package</description>
 
-  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <maintainer email="kiss.roland@hallgato.sze.hu">Kiss Roland</maintainer>
   <license>BSD</license>
 
   <buildtool_depend>catkin</buildtool_depend>
