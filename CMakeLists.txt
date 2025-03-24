@@ -10,9 +10,11 @@ find_package(std_msgs REQUIRED)
 
 
 install(
-  DIRECTORY launch
-  DESTINATION share/${PROJECT_NAME}
+  FILES
+    launch/smart_watch_launch.py
+  DESTINATION share/${PROJECT_NAME}/launch
 )
+
 
 install(
   PROGRAMS
