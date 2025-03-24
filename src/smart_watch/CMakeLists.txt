@@ -18,8 +18,8 @@ install(
 
 install(
   PROGRAMS
-    src/sensor_node.py
-    src/monitor_node.py
+    src/smart_watch/sensor_node.py
+    src/smart_watch/monitor_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
