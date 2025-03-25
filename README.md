@@ -78,15 +78,6 @@ graph TD;
     A[smart_watch_node] --> C[oxygen_topic];
 ```
 
-## Hibaelhárítás
-
-Ha bármilyen hibát észlelsz, ellenőrizd a következőket:
-- A ROS 2 megfelelő telepítése és konfigurálása.
-- A csomag helyes buildelése (`colcon build`).
-- A workspace forrásolása (`source install/local_setup.bash`).
-
-Amennyiben hiba lép fel a node futtatása közben, kérlek nyiss GitHub issue-t és biztosítunk segítséget a javításhoz.
-
 ## GitHub Repository
 
 A projekt elérhetősége: [https://github.com/kissroli6/kis_hzx](https://github.com/kissroli6/kis_hzx)
